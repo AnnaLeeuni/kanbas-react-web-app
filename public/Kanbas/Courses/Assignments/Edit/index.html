@@ -1,0 +1,79 @@
+<html>
+    <body>
+        <form action="/Kanbas/Courses/Assignments/screen.html">
+        <select>
+          <option>SpeedGrader</option>
+        </select>
+         <h2> Assignment Name</h2>
+         <p><input type="text" value="A1 - ENV + HTML"></p>
+         <p><textarea cols="30" rows="10">Assignment description goes here...</textarea></p>
+         <p>
+          <label for="text-fields-points">Points</label><br/>
+          <input id="text-fields-points" type="number" value="100">
+         </p>
+         <p>
+          <label for="text-fields-assignmentGroup">Assignment Group</label><br/>
+          <select id="text-fields-assignmentGroup">
+           <option>ASSIGNMENTS</option>
+           <option>QUIZZES</option>
+           <option>EXAMS</option>
+           <option>PROJECT</option>
+          </select>
+         </p>
+         <p>
+          <label for="text-fields-grade-displace">Displace Grade as</label><br/>
+          <select id="text-fields-grade-displace">
+           <option>PERCENTAGE</option>
+           <option>DECIMAL</option>
+           <option>INTERGER</option>
+          </select>
+         </p>
+         <p>
+          <label for="text-fields-submission-type">Submission Type</label><br/>
+          <select id="text-fields-submission-type">
+           <option>Online</option>
+           <option>Paper</option>
+           <option>Presentation</option>
+          </select>
+         </p>
+         <p>
+          <lable>Online Entry Options</lable> <br/>
+          <label><input type="checkbox" value="Text-Entry" name="Entry-Type" id="Text-Entry"/>Text Entry</label> <br/>
+          <label><input type="checkbox" value="Website-URL" name="Entry-Type" id="Text-Entry"/>Website URL</label> <br/>
+          <label><input type="checkbox" value="Media-Recordings" name="Entry-Type" id="Media-Recordings"/>Media Recordings</label> <br/>
+          <label><input type="checkbox" value="Student-Annotation" name="Entry-Type" id="Student-Annotation"/>Student Annotation</label> <br/>
+          <label><input type="checkbox" value="File-Uploads" name="Entry-Type" id="File-Uploads"/>File Uploads</label> <br/>
+         </p>
+      
+         <p>
+          <h4>Assign</h4>
+          <label>Assign to<br/>
+              <input value="Everyone"/>
+          </label>
+         </p>
+      
+         <p>
+          <label> Due <br/>
+              <input type="date" value="2024-01-22">
+          </label>
+         </p>
+      
+         <p>
+          <label> Available From <br/>
+              <input type="date" value="2024-01-22">
+          </label>
+         </p>
+      
+         <p>
+          <label> Until <br/>
+              <input type="date" value="2024-01-22">
+          </label>
+         </p>
+      
+         <button type="submit">Cancel</button>
+         <button type="submit">Save</button>
+      
+        </form>
+      
+       </body>
+</html>
