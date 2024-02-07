@@ -1,0 +1,38 @@
+.wd-kanbas-navigation {
+    background-color: black;
+    list-style: none;
+    padding: 0px;  margin: 0px;
+    width: 80px;
+  }
+  .wd-kanbas-navigation li {
+    padding: 10px;     margin-bottom: 10px;
+    font-size: 0.8em;  text-align: center;
+  }
+  .wd-kanbas-navigation li.wd-active {
+    background-color: white;
+  }
+  /* has to be inside the class .wd-kanbas-navigation */
+  .wd-kanbas-navigation > li.wd-active a {
+    color: red;
+  }
+  /* > means has to be direct child */
+  /* enforece a hierarchy. */
+  .wd-kanbas-navigation a {
+    color: white;
+    text-decoration: none;
+  }
+  /* text-decoration will add underline */
+  /* .wd-kanbas-navigation a i {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 5px;
+  } */
+  /* if there is any icon, I want it to be red */
+  .wd-kanbas-navigation a i {
+    display: block;
+    color: red;
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  
+  

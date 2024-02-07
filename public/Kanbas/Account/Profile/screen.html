@@ -1,15 +1,39 @@
 <html>
+    <head>
+        <link rel="stylesheet" href="/Kanbas/styles.css" /> 
+        <!-- first, most common, the order matters, the later one will overwrite -->
+        <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+        <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+      </head>
  <body>
   <table>
    <tr>
     <td valign="top">
-     <ul>
-        <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
-        <li><a href="#">Calendar</a></li>
-        <li><a href="#">Inbox</a></li>
-     </ul>
+        <ul class="wd-kanbas-navigation">
+            <li><a href="http://northeastern.edu" 
+              style="font-size: 50px; color: red;">N</a></li>
+            <li class="wd-active"><a href="/Kanbas/Account/Profile/screen.html">
+              <i class="fa fa-user" style="color:aliceblue"></i>Account</a></li>
+            <li>
+              <a href="/Kanbas/Dashboard/screen.html">
+                <i class="fa fa-tachometer"></i> Dashboard</a>
+            </li>
+            <li><a href="/Kanbas/Courses/Home/screen.html">
+              <i class="fa fa-book"></i>Courses</a> </li>
+            <li><a href="#"><i class="fa fa-group"></i>
+                Groups</a></li>
+            <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
+            <li><a href="#"><i class="fa fa-dropbox"></i>
+              Inbox</a></li>
+            <li><a href="#"><i class="fa fa-history"></i>
+              History</a></li>
+            <li><a href="#"><i class="fa fa-share"></i>
+              Commons</a></li>
+            <li><a href="#"><i class="fa fa-film"></i>
+              Studio</a></li>
+            <li><a href="#"><i class="fa fa-info"></i>
+              Help</a></li>
+          </ul>
     </td>
     <td valign="top">
         <ul>
@@ -42,7 +66,7 @@
             </li>
           </ul>
     </td>
-    <td>
+    <td valign="top">
         
         <head>
             <lable>Qingnan Li's Profile</lable>

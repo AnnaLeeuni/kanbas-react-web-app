@@ -1,0 +1,22 @@
+/* styles.css */
+ul {
+    list-style-type: none; /* Remove default list styling */
+    background-color: white; /* Set background color of the list to white */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+li {
+    padding: 10px; /* Add padding around each list item */
+    margin: 5px 0; /* Add some space between list items */
+}
+
+li a {
+    color: red; /* Set the text color to red for links */
+    text-decoration: none; /* Remove the underline from links */
+}
+
+.fa {
+    color: red; /* Set the icon color to red */
+    margin-right: 8px; /* Add some space between the icon and the text */
+}

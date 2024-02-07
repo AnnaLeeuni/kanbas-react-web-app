@@ -1,0 +1,9 @@
+.custom-nav {
+    background-color: black; /* Black background */
+    padding: 10px; /* Add padding around the nav links */
+}
+
+.custom-nav .nav-link {
+    color: white; /* White text for the links */
+    margin-right: 10px; /* Optional: add some spacing between links */
+}
