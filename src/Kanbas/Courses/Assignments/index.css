@@ -1,0 +1,14 @@
+.ellipse {
+    display: inline-flex; /* Inline-flex so it takes only the necessary space */
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Adjust width as needed */
+    height:25px; /* Adjust height as needed */
+    padding: 1px; /* Add padding to match your design */
+    background: white; /* Background color of the ellipse */
+    border: 2px solid #000; /* Border property to match your image */
+    border-radius: 20px; /* Adjust for elliptical shape */
+    font-size: 10px; /* Small font size */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Optional: Adds a subtle shadow */
+    margin: 3px; /* Add margin to avoid sticking to the edges of the browser */
+  }
