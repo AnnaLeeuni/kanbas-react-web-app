@@ -1,6 +1,6 @@
 import React from "react";
 import { Navigate, Route, Routes, useLocation, useParams } from "react-router";
-import { courses } from "../Database/index.tsx";
+import { db } from "../Database/index.tsx";
 import { HiMiniBars3 } from "react-icons/hi2";
 import CourseNavigation from "./Navigation/index.tsx";
 import Modules from "./Modules/index.tsx";
@@ -8,7 +8,7 @@ import Home from "./Home/index.tsx";
 import Assignments from "./Assignments/index.tsx";
 
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
     const location = useLocation();
     const pathSegments = location.pathname.split('/'); // Split the pathname into segments
     const courseNav = pathSegments[4];

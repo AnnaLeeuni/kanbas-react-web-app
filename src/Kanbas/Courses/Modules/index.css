@@ -112,3 +112,135 @@
   border-top: 1px solid gray !important;
   border-left: 2px solid green;
 }
+
+.module-name {
+  display: block; /* Makes span behave like a block element */
+  font-weight: bold;
+}
+
+.module-description {
+  display: block; /* Makes span behave like a block element */
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+
+.module-add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px; /* Adds some padding inside the form */
+  border: 1px solid #eeeeee; /* Adds a border to the form */
+  border-radius: 8px; /* Rounds the corners of the form */
+  background-color: #ffffff; /* Sets the form background to white */
+  width: fit-content; /* Ensures the form only takes up as much width as needed */
+  margin: auto; /* Centers the form if it's the only element, remove if not needed */
+}
+
+.module-name-input,
+.module-description-textarea {
+  width: 80%; /* Sets the width to 80% of the parent element's width */
+  max-width: 300px; /* Ensures that width doesn't exceed 300px */
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.module-description-textarea {
+  height: 100px;
+}
+
+.add-module-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-module-button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for placeholder text */
+.module-name-input::placeholder,
+.module-description-textarea::placeholder {
+  color: #999999;
+}
+
+.module-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.module-name {
+  flex-grow: 1; /* Allows the name to take up the remaining space */
+}
+
+.icon-group {
+  display: flex;
+  align-items: center;
+}
+
+
+.module-description {
+  font-size: 0.8rem; /* Make the description font smaller */
+  margin-top: 0.5rem; /* Add some space above the description */
+  color: #666; /* Make the description color lighter or as needed */
+}
+
+.delete-module-button {
+  padding: 5px 15px;
+  background-color: red; /* Use your preferred red shade */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* Align text in the button if needed */
+  text-align: center;
+  /* Adding a small margin-top might be necessary depending on your design */
+  margin-top: -2px;
+  margin-right: 6px;
+}
+
+.edit-module-button {
+  padding: 5px 15px;
+  background-color: green; /* Use your preferred red shade */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* Align text in the button if needed */
+  text-align: center;
+  /* Adding a small margin-top might be necessary depending on your design */
+  margin-top: -2px;
+  margin-right: 6px;
+}
+
+.update-module-button {
+  padding: 5px 15px;
+  background-color: blue; /* Use your preferred red shade */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* Align text in the button if needed */
+  text-align: center;
+  /* Adding a small margin-top might be necessary depending on your design */
+  margin-top: 5px;
+  margin-right: 6px;
+}
+
+/* Additional hover effect for the delete button */
+.delete-module-button:hover {
+  background-color: darkred; /* A darker shade when hovering */
+}
+
+.delete-module-button:hover {
+  background-color: darkgreen; /* A darker shade when hovering */
+}

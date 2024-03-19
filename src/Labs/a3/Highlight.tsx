@@ -7,4 +7,4 @@ function Highlight({ children }: { children: ReactNode }) {
     </span>
   );
 }
-export default Highlight;
+export default Highlight; 

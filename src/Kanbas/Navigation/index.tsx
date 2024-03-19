@@ -41,26 +41,3 @@ function KanbasNavigation() {
   );
 }
 export default KanbasNavigation;
-  //     <li><a href="/Kanbas/Account/Profile/screen.html">
-  //       <FaUser style={{ color: "aliceblue" }} />Account</a></li>
-  //     <li className="wd-active">
-  //       <a href="/Kanbas/Dashboard/screen.html">
-  //         <FaTachometerAlt /> Dashboard</a>
-  //     </li>
-  //     <li><a href="/Kanbas/Courses/Home/screen.html">
-  //       <FaBook />Courses</a> </li>
-  //     <li><a href="#">
-  //         Groups</a></li>
-  //     <li><a href="#"><FaCalendar /> Calendar</a></li>
-  //     <li><a href="#"><FaDropbox />
-  //       Inbox</a></li>
-  //     <li><a href="#"><FaHistory />
-  //       History</a></li>
-  //     <li><a href="#"><FaShare />
-  //       Commons</a></li>
-  //     <li><a href="#"><FaFilm />
-  //       Studio</a></li>
-  //     <li><a href="#"><FaInfo />
-  //       Help</a></li>
-  //   </ul>
-  

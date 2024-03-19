@@ -54,7 +54,6 @@ function JavaScript() {
             <Spreading />
             <Destructing />
             <FunctionDestructing />
-            <ConditionalOutput/>
        </div>
     );
  }
