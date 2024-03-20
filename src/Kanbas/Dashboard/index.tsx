@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { db } from "../Database/index.tsx";
+import "./index.css";
 
 function Dashboard(
   { courses, course, setCourse, addNewCourse,
@@ -23,11 +23,11 @@ function Dashboard(
       <input value={course.endDate} className="form-control" type="date"
              onChange={(e) => setCourse({ ...course, endDate: e.target.value }) } />
 
-      <button onClick={addNewCourse} >
+      <button className="button-add" onClick={addNewCourse} >
         Add
       </button>
 
-      <button onClick={updateCourse} >
+      <button className="button-edit" onClick={updateCourse} >
         Update
       </button>
 
@@ -46,19 +46,21 @@ function Dashboard(
                     {course.name + "." + course.number}
 
                     
-                    <button onClick={(event) => {
-                event.preventDefault();
-                setCourse(course);
-              }}>
-              Edit
-            </button>
+                    <div className="inline-button-container">
+                      <button className="button-edit" onClick={(event) => {
+                          event.preventDefault();
+                          setCourse(course);
+                        }}>
+                        Edit
+                      </button>
 
-                    <button onClick={(event) => {
-                        event.preventDefault();
-                        deleteCourse(course._id);
-                      }}>
-                      Delete
-              </button>
+                      <button className="button-delete" onClick={(event) => {
+                          event.preventDefault();
+                          deleteCourse(course._id);
+                        }}>
+                        Delete
+                      </button>
+                    </div>
 
                     
                   </Link>
